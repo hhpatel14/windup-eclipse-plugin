@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.jboss.tools.windup.model.editor;singleton:=true
+Bundle-Version: 7.2.0.Final
+Bundle-ClassPath: .
+Bundle-Activator: org.jboss.tools.windup.windup.presentation.WindupEdito
+ rPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.jboss.tools.windup.windup.presentation
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources;visi
+ bility:=reexport,org.jboss.tools.windup.model.edit;visibility:=reexport
+ ,org.eclipse.emf.ecore.xmi;visibility:=reexport,org.eclipse.emf.edit.ui
+ ;visibility:=reexport,org.eclipse.ui.ide;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/windup/windup-eclip
+ se-plugin.git;path="plugins/org.jboss.tools.windup.model.editor";tag="v
+ .7.2.0";commitId=2e5fd8b02aa31ecb9cf871beedf230b4e098602e
+Bundle-License: Eclipse Public License;link="http://www.eclipse.org/lega
+ l/epl-v10.html"
+

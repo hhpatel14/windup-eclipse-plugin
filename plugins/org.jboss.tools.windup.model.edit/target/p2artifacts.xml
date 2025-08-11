@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.model.edit' version='7.2.0.Final'>
+    <properties size='9'>
+      <property name='artifact.size' value='3008'/>
+      <property name='download.size' value='3008'/>
+      <property name='download.checksum.sha-512' value='0748cbe3d98edc6bc845f39f737eee25a25fc6999d973bb2ef8b936e19cb5663b0b618a94d8786c6f711bf692e5c90581533a111ca0aea2b2560f73689a9795e'/>
+      <property name='download.checksum.sha-1' value='6ca23b3201395b7afef306bc83af16d6f573c6f1'/>
+      <property name='download.checksum.sha-256' value='8c1da0687666662eadd46822eee76196076f1653c24daa47849bda533b784522'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.model.edit'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.model.edit.source' version='7.2.0.Final'>
+    <properties size='10'>
+      <property name='artifact.size' value='908'/>
+      <property name='download.size' value='908'/>
+      <property name='download.checksum.sha-512' value='b06341563900621e82e85f81a8e65164612b3bee05e506b477324de57e22e79ab312a56f21e12823fc6961465cb0a5ee34407946f81e6d8187c7c753345fe1b5'/>
+      <property name='download.checksum.sha-1' value='3e91f7fcc6ecc03514c2990c4ee47b02267bd04c'/>
+      <property name='download.checksum.sha-256' value='db509719f023e4f7dd96b2c5f4f67c537a70be6ddc31ba56f05f43ed3dbc2b1d'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.model.edit'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

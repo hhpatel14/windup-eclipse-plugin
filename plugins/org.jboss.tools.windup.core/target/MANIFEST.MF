@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.jboss.tools.windup.core;singleton:=true
+Bundle-Version: 7.2.0.Final
+Bundle-ClassPath: .
+Bundle-Activator: org.jboss.tools.windup.core.WindupCorePlugin
+Bundle-Vendor: %plugin.vendor
+Bundle-Localization: plugin
+Export-Package: org.jboss.tools.windup.core,org.jboss.tools.windup.core.
+ services,org.jboss.tools.windup.core.utils
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.
+ eclipse.osgi.services,org.eclipse.wst.validation;bundle-version="[1.2.5
+ 01,2.0.0)",org.eclipse.jface;bundle-version="[3.1.1,4.0.0)",org.jboss.t
+ ools.windup.runtime,org.jboss.tools.common,org.eclipse.e4.core.di.annot
+ ations,org.eclipse.debug.core,org.eclipse.jdt.launching,org.eclipse.e4.
+ core.contexts,org.eclipse.e4.core.di,com.google.guava,org.eclipse.e4.co
+ re.services,org.eclipse.core.filesystem;bundle-version="1.6.0",org.jbos
+ s.tools.windup.model,org.eclipse.emf.common,org.apache.commons.io;bundl
+ e-version="2.2.0",javax.inject,org.apache.log4j,jakarta.inject.jakarta.
+ inject-api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/windup/windup-eclip
+ se-plugin.git;path="plugins/org.jboss.tools.windup.core";tag="v.7.2.0";
+ commitId=2e5fd8b02aa31ecb9cf871beedf230b4e098602e
+Bundle-License: Eclipse Public License;link="http://www.eclipse.org/lega
+ l/epl-v10.html"
+

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.core.test' version='7.2.0.Final'>
+    <properties size='9'>
+      <property name='artifact.size' value='3013'/>
+      <property name='download.size' value='3013'/>
+      <property name='download.checksum.sha-512' value='c4691d0ef27e09bc546a0c3822c64c5caff9fcd163fc05e5c72050b088af09d4561ebefb94377cf81611bcac2a6a21f6d0e8f5a1a5c0b47a50e0e9d739138444'/>
+      <property name='download.checksum.sha-1' value='461ffa3a520ae9fc07b4f70e0d5949ec35a7bbba'/>
+      <property name='download.checksum.sha-256' value='09eba9df343d336da6ed0a5d16c355ea67ef8bc9008eff3d08e85ecbc6b1024f'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.tests'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.core.test'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-type' value='eclipse-test-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.core.test.source' version='7.2.0.Final'>
+    <properties size='10'>
+      <property name='artifact.size' value='902'/>
+      <property name='download.size' value='902'/>
+      <property name='download.checksum.sha-512' value='7f047be9b180be2ef50875eaf56c670423e43a91632dc7de4623e45b5c23f5e587d71891c5e420524549ab16716263c26f53fa174e555ced43059ead81b16343'/>
+      <property name='download.checksum.sha-1' value='51b2d1332046713790234348574b000a616222c5'/>
+      <property name='download.checksum.sha-256' value='0f038f1cb851b6fdefd79a80b62e7b834c050bb0b8437f88d6b0c6378170654d'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.tests'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.core.test'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

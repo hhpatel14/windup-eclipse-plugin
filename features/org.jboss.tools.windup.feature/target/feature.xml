@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.windup.feature"
+      label="%featureName"
+      version="7.2.0.Final"
+      plugin="org.jboss.tools.windup.ui"
+      provider-name="%providerName">
+
+   <description url="%descriptionURL">
+   	  %description
+   </description>
+
+   <copyright>
+      %copywrite
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.windup.core"
+         download-size="2"
+         install-size="11"
+         version="7.2.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.windup.runtime"
+         download-size="4"
+         install-size="18"
+         version="7.2.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.windup.ui"
+         download-size="3"
+         install-size="14"
+         version="7.2.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.windup.model"
+         download-size="3"
+         install-size="10"
+         version="7.2.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.windup.model.edit"
+         download-size="2"
+         install-size="10"
+         version="7.2.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.windup.model.editor"
+         download-size="2"
+         install-size="10"
+         version="7.2.0.Final"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.runtime' version='7.2.0.Final'>
+    <properties size='9'>
+      <property name='artifact.size' value='4622'/>
+      <property name='download.size' value='4622'/>
+      <property name='download.checksum.sha-512' value='202b25811e74748bc387bcea26f594d1ec221e6193be9cddd07a4dfe00f37532a4c12a7d8f2a64695258d52b2a0b15e5ae7e728d9704d32a2b01d9503e8d41ff'/>
+      <property name='download.checksum.sha-1' value='1b1ee11102eb654b638c5d59cc9f9f7fedae6ffd'/>
+      <property name='download.checksum.sha-256' value='9515c4cc5ce3e8abbf92bed685c6996bacf92ebfb7082b5507655f4560a7e131'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.runtime'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.runtime.source' version='7.2.0.Final'>
+    <properties size='10'>
+      <property name='artifact.size' value='901'/>
+      <property name='download.size' value='901'/>
+      <property name='download.checksum.sha-512' value='f0f24e07077eafa1fbe4935b8f85a66ddc5bde9019be6c066fae9c5d4efe8221724ea711275312b99b3f9e51e649f02c7673162b5304918185b696cf8bb89e25'/>
+      <property name='download.checksum.sha-1' value='63a4932e7e98a33c842a4e313796e5c662c40269'/>
+      <property name='download.checksum.sha-256' value='642cbc30083df0055cbb66a72a9779c1c806541dcb588d3408dec364129e2a9a'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.runtime'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

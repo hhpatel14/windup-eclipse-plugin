@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.jboss.tools.windup.runtime' version='7.2.0.Final' generation='2'>
+    <update id='org.jboss.tools.windup.runtime' range='[0.0.0,7.2.0.Final)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='%plugin.name'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%plugin.vendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.runtime'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='214'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jboss.tools.windup.runtime' version='7.2.0.Final'/>
+      <provided namespace='osgi.bundle' name='org.jboss.tools.windup.runtime' version='7.2.0.Final'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.compiler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.compiler.batch' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.conversion' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.documentation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.findReferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.formatting2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.imports' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.javaconverter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.jvmmodel' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.linking' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.macro' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.macro.declaration' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.naming' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.parser.antlr.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.resource' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.richstring' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.richstring.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.richstring.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.scoping' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.tasks' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.typesystem' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.typing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.xtend' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.xtend.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend.core.xtend.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtend2.lib' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.build' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.builder.standalone' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.builder.standalone.compiler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.builder.standalone.incremental' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.common' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.common.parser.packrat' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.common.parser.packrat.consumers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.common.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.common.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.conversion' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.conversion.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.diagnostics' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.documentation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.documentation.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.findReferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting2.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting2.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting2.regionaccess' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.formatting2.regionaccess.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.adapter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.builder' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.ecore' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.ecore2xtext' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.exporting' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.formatting' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.formatting2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.grammarAccess' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.junit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parseTreeConstructor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.formatting' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.parseTreeConstruction' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.parser.antlr.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.simpleAntlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.simpleAntlr.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.simpleAntlr.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.debug.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.ex' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.ex.ca' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.ex.common' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.ex.rt' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.ex.wsAware' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.antlr.postProcessing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.parser.packrat' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.resourceFactory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.scoping' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.tasks' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.terminals' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.trace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.trace.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.types' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.generator.xbase' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.grammaranalysis' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.grammaranalysis.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.linking' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.linking.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.linking.lazy' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.mwe' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.naming' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.nodemodel' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.nodemodel.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.nodemodel.serialization' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.nodemodel.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.antlr.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.packrat' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.packrat.consumers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.packrat.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.packrat.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.packrat.matching' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parser.packrat.tokens' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parsetree.reconstr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.parsetree.reconstr.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.resource' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.resource.clustering' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.resource.containers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.resource.generic' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.resource.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.resource.persistence' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.scoping' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.scoping.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer.acceptor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer.analysis' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer.diagnostic' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer.sequencer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.serializer.tokens' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.service' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.services' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.tasks' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.compare' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.contentAssist' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.labeling' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.outline' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.projectWizard' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.quickfix' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.refactoring' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.ui.generator.templates' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.util.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.util.formallang' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.util.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.validation.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.workspace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.xbase.lib' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.xbase.lib.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.xbase.lib.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.xtext' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.xtext.ecoreInference' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.xtext.xtext.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.tools.windup.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.tools.windup.runtime.kantra' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.tools.windup.runtime.options' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.builder' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.condition' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.furnace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.loader' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.metadata' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.operation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.operation.graph' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.operation.iteration' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parameters' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parser.metadata' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parser.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parser.xml.perform' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parser.xml.when' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.parser.xml.where' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.phase' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.projecttraversal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.query' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.ruleprovider' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.selectors' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.config.tags' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.frames' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.iterables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.listeners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.model' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.model.comparator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.model.performance' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.model.report' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.model.resource' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.service' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.service.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.graph.traversal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.tooling' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.tooling.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.tooling.quickfix' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.tooling.rules' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.util.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.util.file' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.util.furnace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jboss.windup.util.threading' version='0.0.0'/>
+      <provided namespace='java.package' name='org.markdown4j' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.jboss.tools.windup.runtime' version='7.2.0.Final'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='16'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jboss.tools.common' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.google.guava' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.services' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.common' range='2.12.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='2.12.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.launching' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.google.inject' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.apache.log4j' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='javax.inject' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='javax.annotation' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='jakarta.inject.jakarta.inject-api' range='0.0.0'/>
+      <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+        <description>
+          org.jboss.tools.windup.runtime
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.runtime' version='7.2.0.Final'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jboss.tools.windup.runtime;singleton:=true&#xA;Bundle-Version: 7.2.0.Final&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.jboss.tools.windup.runtime.source' version='7.2.0.Final' singleton='false'>
+    <update id='org.jboss.tools.windup.runtime.source' range='[0.0.0,7.2.0.Final)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='%plugin.vendor'/>
+      <property name='df_LT.bundleName' value='%plugin.name Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.runtime'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jboss.tools.windup.runtime.source' version='7.2.0.Final'/>
+      <provided namespace='osgi.bundle' name='org.jboss.tools.windup.runtime.source' version='7.2.0.Final'/>
+      <provided namespace='osgi.identity' name='org.jboss.tools.windup.runtime.source' version='7.2.0.Final'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.runtime.source' version='7.2.0.Final'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jboss.tools.windup.runtime.source&#xA;Bundle-Version: 7.2.0.Final&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

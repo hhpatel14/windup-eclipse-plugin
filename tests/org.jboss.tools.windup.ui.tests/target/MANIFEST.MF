@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.jboss.tools.windup.ui.tests;singleton:=true
+Bundle-Version: 7.2.0.Final
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.
+ eclipse.wst.validation;bundle-version="[1.2.402,2.0.0)",org.junit;bundl
+ e-version="[4.8.2,5.0.0)",org.jboss.tools.windup.core,org.apache.common
+ s.io;bundle-version="[2.0.1,3.0.0)",com.google.inject,org.eclipse.e4.co
+ re.contexts,org.eclipse.ui,org.eclipse.e4.ui.model.workbench,org.eclips
+ e.e4.core.di,org.jboss.tools.windup.core.test,org.eclipse.e4.ui.workben
+ ch,com.google.guava,org.eclipse.e4.ui.workbench.renderers.swt,org.eclip
+ se.swtbot.eclipse.finder,org.jboss.tools.windup.ui,org.jboss.tools.wind
+ up.model,org.eclipse.ui.navigator,org.eclipse.emf.common,org.eclipse.te
+ xt,org.jboss.tools.windup.runtime,org.eclipse.ui.ide,org.eclipse.e4.cor
+ e.services,org.eclipse.e4.ui.services,org.eclipse.jdt.core,org.eclipse.
+ wst.xml.ui,org.eclipse.ui.workbench.texteditor,org.eclipse.jdt.ui,org.e
+ clipse.jface.text,org.eclipse.wst.sse.core,org.eclipse.wst.xml.core,org
+ .eclipse.debug.core,javax.inject,org.apache.log4j,jakarta.inject.jakart
+ a.inject-api
+Bundle-Vendor: %plugin.vendor
+Bundle-Activator: org.jboss.tools.windup.ui.tests.Activator
+Import-Package: org.eclipse.ui.texteditor
+Eclipse-SourceReferences: scm:git:https://github.com/windup/windup-eclip
+ se-plugin.git;path="tests/org.jboss.tools.windup.ui.tests";tag="v.7.2.0
+ ";commitId=2e5fd8b02aa31ecb9cf871beedf230b4e098602e
+Bundle-License: Eclipse Public License;link="http://www.eclipse.org/lega
+ l/epl-v10.html"
+

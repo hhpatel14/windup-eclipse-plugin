@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.model' version='7.2.0.Final'>
+    <properties size='9'>
+      <property name='artifact.size' value='3089'/>
+      <property name='download.size' value='3089'/>
+      <property name='download.checksum.sha-512' value='43f6231fcad8fc5644fd37f869f06d60dd46441b72370472feca69c50c6e1541facb0ee9fae54339d8b536db09b9c24c3a2ca2777271d530edff96a5fb564a91'/>
+      <property name='download.checksum.sha-1' value='6536e0901440da15ab50699b90532a7086978904'/>
+      <property name='download.checksum.sha-256' value='f3c9ddab030492e3dcbefe6be27d11cf69e582a06d0b0e41f7adb33e5155d1ab'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.model'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.jboss.tools.windup.model.source' version='7.2.0.Final'>
+    <properties size='10'>
+      <property name='artifact.size' value='897'/>
+      <property name='download.size' value='897'/>
+      <property name='download.checksum.sha-512' value='33829f106bd78daf6315d805caead047abb9e07661d728993f20ed9695bc1ba1f24f4059b5a22da55156b150defcb980024352c7bbcfc9fa49379700a4a2f505'/>
+      <property name='download.checksum.sha-1' value='546b06212011a153843ffa37f2d66f2423217056'/>
+      <property name='download.checksum.sha-256' value='6f892c299fafc95851c4665591bdcfb884a2bbb3b11538ab0ffaf668b1cca11b'/>
+      <property name='maven-groupId' value='org.jboss.tools.windup.plugins'/>
+      <property name='maven-artifactId' value='org.jboss.tools.windup.model'/>
+      <property name='maven-version' value='7.2.0.Final'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

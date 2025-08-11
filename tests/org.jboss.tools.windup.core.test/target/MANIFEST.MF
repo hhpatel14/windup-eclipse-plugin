@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.jboss.tools.windup.core.test;singleton:=true
+Bundle-Version: 7.2.0.Final
+Bundle-Activator: org.jboss.tools.windup.core.test.WindupCoreTestPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.
+ eclipse.wst.validation,org.junit,org.jboss.tools.windup.core,org.apache
+ .commons.io,com.google.inject,org.eclipse.e4.core.contexts,org.eclipse.
+ ui,org.eclipse.e4.ui.model.workbench,org.eclipse.e4.core.di,org.jboss.t
+ ools.windup.model,javax.inject,jakarta.inject.jakarta.inject-api
+Export-Package: org.jboss.tools.windup.core.test
+Bundle-Vendor: %plugin.vendor
+Eclipse-SourceReferences: scm:git:https://github.com/windup/windup-eclip
+ se-plugin.git;path="tests/org.jboss.tools.windup.core.test";tag="v.7.2.
+ 0";commitId=2e5fd8b02aa31ecb9cf871beedf230b4e098602e
+Bundle-License: Eclipse Public License;link="http://www.eclipse.org/lega
+ l/epl-v10.html"
+
